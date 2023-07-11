@@ -4,9 +4,10 @@
 
 This is a template for a vanilla JS project using Vite. It includes the following:
 
-- [x] [Vite](https://vitejs.dev/)
 - [x] [Prettier](https://prettier.io/)
 - [x] [TailwindCSS](https://tailwindcss.com/)
+- [x] [TypeScript](https://www.typescriptlang.org/)
+- [x] [Vite](https://vitejs.dev/)
 
 ## Requirements
 
