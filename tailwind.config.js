@@ -3,11 +3,9 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        'custom-bg': '#424245',
-        'custom-color': 'silver',
-      },
-      fontFamily: {
-        'lato-light': ['Lato', 'sans-serif'],
+        'custom-dark': '#424245',
+        'custom-light': 'silver',
+        'custom-blue': '#007ACC',
       },
     },
   },
