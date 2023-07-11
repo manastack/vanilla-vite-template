@@ -1,5 +1,7 @@
 # vanilla-vite-template
 
+[![Testing](https://github.com/mana-user/vanilla-vite-template/actions/workflows/ci.yml/badge.svg)](https://github.com/mana-user/vanilla-vite-template/actions/workflows/ci.yml)
+
 ## Description
 
 This is a template for a vanilla JS project using Vite. It includes the following:

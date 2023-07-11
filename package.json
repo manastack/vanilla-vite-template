@@ -1,5 +1,9 @@
 {
   "version": "0.0.0",
+  "engines": {
+    "node": "20",
+    "pnpm": "8"
+  },
   "scripts": {
     "preinstall": "./scripts/nvm-use.sh",
     "setup": "pnpm i && pnpm audit",
