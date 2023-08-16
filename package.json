@@ -5,8 +5,7 @@
     "pnpm": "8"
   },
   "scripts": {
-    "preinstall": "./scripts/nvm-use.sh",
-    "setup": "pnpm i && pnpm audit",
+    "setup": "./scripts/nvm-use.sh && pnpm i && pnpm audit",
     "dev": "cross-env TAILWIND_MODE=watch vite",
     "lint:styles": "stylelint --fix 'src/**/**.{css,style.js,style.ts}'",
     "lint:scripts": "eslint --fix 'src/**/**.{.js,json,jsx,scss,ts,tsx}'",
