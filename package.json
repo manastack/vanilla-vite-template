@@ -10,7 +10,7 @@
     "dev": "cross-env TAILWIND_MODE=watch vite",
     "lint:styles": "stylelint --fix 'src/**/**.{css,style.js,style.ts}'",
     "lint:scripts": "eslint --fix 'src/**/**.{.js,json,jsx,scss,ts,tsx}'",
-    "lint:prettier": "prettier --write 'src/**/*.{js,jsx,ts,tsx,css,md}' './index.html' './*.{js,json,md}'",
+    "lint:prettier": "prettier --write 'src/**/*.{js,jsx,ts,tsx,css,md}' '_index.html' './*.{js,json,md}'",
     "format": "pnpm lint:scripts && pnpm lint:prettier",
     "test": "vitest",
     "test:ui": "vitest --ui",
@@ -18,6 +18,9 @@
     "test:coverage": "vitest run --coverage",
     "build": "tsc && cross-env TAILWIND_MODE=build vite build",
     "serve": "vite preview"
+  },
+  "dependencies": {
+    "redux": "^5.0.0"
   },
   "devDependencies": {
     "@typescript-eslint/eslint-plugin": "^5.49.0",
